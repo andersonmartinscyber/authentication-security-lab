@@ -1,0 +1,15 @@
+Password for [WORKGROUP\msfadmin]:
+Current directory is \\192.168.2.98\msfadmin\
+  .                                   D        0  Thu Nov 12 08:25:02 2026
+  ..                                 DR        0  Fri Apr 16 04:16:02 2010
+  vulnerable                          D        0  Wed Apr 28 01:44:17 2010
+  .rhosts                            AH        4  Sun May 20 16:22:32 2012
+  .ssh                               DH        0  Mon May 17 23:43:18 2010
+  .profile                            H      586  Tue Mar 16 21:12:59 2010
+  .sudo_as_admin_successful           H        0  Mon Nov  9 14:01:10 2026
+  .distcc                            DH        0  Sat Apr 17 16:11:00 2010
+  .bash_history                       H        0  Tue Mar 16 21:01:07 2010
+  .gconfd                            DH        0  Sat Nov 14 08:25:31 2026
+  .gconf                             DH        0  Sat Nov 14 08:25:01 2026
+
+		7282168 blocks of size 1024. 5427676 blocks available

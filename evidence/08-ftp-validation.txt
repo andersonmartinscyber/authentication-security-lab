@@ -1,0 +1,13 @@
+Evidência extraída do registro original de terminal.
+Trecho limitado à conexão FTP, autenticação e consulta pwd.
+
+Connected to 192.168.2.98.
+220 (vsFTPd 2.3.4)
+Name (192.168.2.98:kali): msfadmin
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> pwd
+Remote directory: /home/msfadmin

@@ -1,0 +1,15 @@
+2026-11-14T11:41:17-03:00
+PRETTY_NAME="Kali GNU/Linux Rolling"
+NAME="Kali GNU/Linux"
+VERSION_ID="2026.3"
+VERSION="2026.3"
+VERSION_CODENAME=kali-rolling
+ID=kali
+ID_LIKE=debian
+HOME_URL="https://www.kali.org/"
+SUPPORT_URL="https://forums.kali.org/"
+BUG_REPORT_URL="https://bugs.kali.org/"
+ANSI_COLOR="1;31"
+7.2.15+kali-amd64
+192.168.2.98 dev wlan0 src 192.168.2.33 uid 0
+    cache

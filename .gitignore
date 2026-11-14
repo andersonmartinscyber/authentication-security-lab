@@ -1,0 +1,12 @@
+
+# Arquivos temporários e sessões locais
+*.swp
+*.swo
+*~
+.env
+.env.*
+.venv/
+__pycache__/
+cookies*.txt
+*cookies*.json
+*.har

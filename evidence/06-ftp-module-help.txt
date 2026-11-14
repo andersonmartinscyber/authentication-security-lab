@@ -1,0 +1,30 @@
+Medusa v2.3 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+ftp.mod (2.1) pMonkey <pmonkey@foofus.net> :: Brute force module for FTP/FTPS sessions
+
+Available module options:
+MODE:? (NORMAL*, EXPLICIT, IMPLICIT)
+
+  EXPLICIT: AUTH TLS Mode as defined in RFC 4217
+     Explicit FTPS (FTP/SSL) connects to a FTP service in the clear. Prior to
+     sending any credentials, however, an "AUTH TLS" command is issued and a
+     SSL session is negotiated.
+
+  IMPLICIT: FTP over SSL (990/tcp)
+     Implicit FTPS requires a SSL handshake to be performed before any FTP
+     commands are sent. This service typically resides on tcp/990. If the user
+     specifies this option or uses the "-n" (SSL) option, the module will
+     default to this mode and tcp/990.
+
+  NORMAL
+     The default behaviour if no MODE is specified. Authentication is attempted
+     in the clear. If the server requests encryption for the given user,
+     Explicit FTPS is utilized.
+
+
+Example Usage:
+    medusa -M ftp -h host -u username -p password
+    medusa -M ftp -s -h host -u username -p password
+    medusa -M ftp -m MODE:EXPLICIT -h host -u username -p password
+
+(*) Default value

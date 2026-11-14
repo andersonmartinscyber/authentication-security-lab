@@ -1,0 +1,6 @@
+=== Controle negativo ===
+9:		<title>Damn Vulnerable Web App (DVWA) v1.0.7 :: Vulnerability: Brute Force</title>
+52:		<pre><br>Username and/or password incorrect.</pre>
+=== Controle positivo ===
+9:		<title>Damn Vulnerable Web App (DVWA) v1.0.7 :: Vulnerability: Brute Force</title>
+52:		<p>Welcome to the password protected area admin</p><img src="http://172.16.123.129/dvwa/hackable/users/admin.jpg" />
