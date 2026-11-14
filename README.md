@@ -30,8 +30,6 @@ Os testes foram direcionados exclusivamente à VM Metasploitable 2 do laboratór
 | Medusa | 2.3 |
 | Nmap | 7.991 |
 
-O ambiente foi adaptado: o Kali foi executado em um computador físico, em vez de uma segunda VM. A conectividade foi comprovada. O modo de rede do VirtualBox e seu isolamento não foram registrados nas evidências disponíveis.
-
 As credenciais documentadas pertencem ao ambiente vulnerável de laboratório.
 
 ## Conceitos aplicados
